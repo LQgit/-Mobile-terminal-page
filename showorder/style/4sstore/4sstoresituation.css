@@ -1,0 +1,283 @@
+/*si-4s-introduction*/
+.si-4s-introduction {
+ 	margin-bottom: .1rem;
+ 	position: relative;
+}
+.si-4s-img {
+	width: 100%;
+	height: 2rem;
+}
+.si-4s-img img {
+	width: 100%;
+	height: 100%;
+}
+.si-4s-addres {
+	padding: .16rem .2rem .16rem .15rem;
+	background-color: #fff;
+}
+.si-4s-name {
+	padding: .2rem .2rem .065rem .15rem;
+	background-color: #fff;
+}
+.si-4s-score {
+	padding: .065rem .2rem .15rem .15rem;
+	font-size: .15rem;
+	background-color: #fff;
+}
+.si-4s-padding {
+	padding-left: .11rem;
+}
+.si-4s-padding:after {
+		font-family: 'iconfont';
+	    content: '\e604';
+	    transform: rotateX(180deg);
+	    font-size: .15rem;
+	    position: absolute;
+-webkit-transform: scale(-1,1);
+	    transform: scale(-1,1);
+	    right: .2rem;
+}
+.si-4s-addres:after {
+		font-family: 'iconfont';
+		content: '\e60e';
+		position: absolute;
+	    right: .2rem;
+	    font-size: .15rem;
+	    color: #999;
+}
+.si-4s-star-position {
+	position: relative;
+}
+.si-4s-star-item:after {
+	font-family: 'iconfont';
+	content: '\e634';
+	color: #ffc341;
+
+}
+.si-4s-star-gray .si-4s-star-item:after {
+	font-family: 'iconfont';
+	content: '\e634';
+	color: #999;
+
+}
+.si-4s-star-width {
+	position: absolute;
+	width: 89%;
+	left: 0;
+}
+.si-4s-star {
+	top: -.02rem;
+}
+/*si-hot-care*/
+.si-hot-care-word {
+	padding: .075rem 0 .075rem .15rem;
+	background-color: #fff;
+}
+.si-hot-care {
+	padding: .3rem .15rem 0 .15rem;
+	background-color: #fff;
+}
+.si-hot-care-padtop {
+	padding-top: .16rem;
+}
+.si-hot-care-car-img {
+	width: 1.42rem;
+	height: .75rem;
+	padding: 0 .18rem 0 .12rem;
+}
+.car-padding {
+	padding: 0 .1rem 0 .2rem;
+}
+.si-hot-care-car-img img {
+	width: 100%;
+	height: 100%;
+}
+.si-hot-care-car {
+	text-align: center;
+}
+.ten-font {
+	font-size: .1rem;
+}
+.eve-font {
+	font-size: .11rem;
+}
+.red-price {
+	color: #fa5a4b;
+} 
+/*si-car-master-rate*/
+.si-car-master-rate {
+	padding: 0 .15rem .15rem .15rem;
+	background-color: #fff;
+}
+.car-master-word {
+	padding: .1rem 0 .1rem .15rem ;
+	background-color:#fff; 
+}
+.si-car-master-score {
+	padding: .25rem 0;
+	position: relative;
+}
+.si-car-master-score-left {
+	padding-left: .15rem;
+}
+.si-car-master-score-right {
+	float: right;
+	font-size: .15rem;
+	padding-right: .15rem;
+}
+.si-car-master-score-right:after {
+	content: '';
+    display: block;
+    height: .43rem;
+    width: 1px;
+    position: absolute;
+    background-color: #e9e9e9;
+    top: .25rem;
+    left: .945rem;
+}
+.si-car-master-score-star-items {
+	padding-left: .13rem;
+}
+.si-car-socre-padl {
+	padding-left: .1rem;
+}
+.si-car-socre-padl1 {
+	padding-left: .21rem;
+}
+.four-e {
+	font-size: .24rem;
+	color: #ff6e37;
+}
+.car-master-point {
+	font-size: .15rem;
+	color: #ff6e37;
+}
+.si-car-master-score-star:after {
+	font-family: 'iconfont';
+	content: '\e634';
+	color: #ffc341;
+}
+.rate-btn span {
+	width: .8rem;
+    height: .3rem;
+    border-radius: 5px;
+    background-color: #ffa028;
+    margin-right: .085rem;
+    text-align: center;
+    line-height: .3rem;
+}
+.rate-btn .yellow-btn {
+	color: #fff;
+}
+.rate-btn .org-btn {
+	background-color: #ffebd2;
+}
+.rate-btn .gray-btn {
+	background-color: #f4f4f8;	
+}
+
+
+/*si-personal-rate-content*/
+.si-user {
+	position: relative;
+	padding: .15rem 0 .15rem .15rem;
+	background-color: #fff;
+}
+.si-user-img {
+	float: left;
+	width: .45rem;
+	height: .45rem;
+	
+}
+.si-user-img img {
+	width: 100%;
+	height: 100%;
+}
+.si-user-name {
+	padding: 0 0 0 .55rem;
+	line-height: .225rem;
+	
+}
+.si-user-nickname {
+	font-size: .15rem;
+}
+.si-car-type {
+	padding: 0 0 .12rem .15rem;
+	background-color: #fff; 
+}
+.si-car-type-star-items span:after {
+	font-family: 'iconfont';
+    content: '\e634';
+    color: #ffc341;
+}
+.car-type-padding {
+	padding-right: .2rem;
+
+}
+.si-car-personal-content {
+	padding: 0 .15rem;
+	background-color: #fff;
+	margin-bottom: .1rem;
+}
+.si-car-personal-word {
+	font-size: .15rem;
+ 	letter-spacing: .002rem;
+ 	padding-bottom: .15rem;
+
+}
+.si-car-personal-img-wrap {
+	width: 1.11rem;
+	height: 1.115rem;
+	margin:0 .06rem .05rem 0;
+}
+.si-car-personal-img-wrap img {
+	width: 100%;
+	height: 100%;
+}
+.si-car-personal-img-wrap-two {
+	padding-bottom: .25rem;
+}
+.days {
+	padding-top: .175rem;
+	color: #ffa028;
+}
+.day-con {
+	font-size: .15rem;
+	padding: .15rem 0 .24rem 0;
+	line-height: 1.4;
+}
+.two-user-rate {
+	width: 2.28rem;
+	height: 1.75rem;
+	padding-bottom: .25rem;
+	margin-bottom: 0;
+}
+.si-car-personal-word-two {
+	padding-bottom: 0;
+}
+.twodays {
+	padding-top: .25rem;
+}
+.si-car-personal-content-p {
+	padding-bottom: .25rem;
+	margin-bottom: 0;
+}
+
+.ui-lading {
+	line-height: .5rem;
+	text-align: center;
+	position: relative;
+}
+.ui-lading span {
+    position: absolute;
+    bottom: .025rem;
+}
+
+.si-page-bottom {
+	padding: .125rem .15rem;
+	background-color: #fff;
+}
+.page-bottom-btn {
+	background-color: #fa5a4b;
+	color: #fff;
+}
